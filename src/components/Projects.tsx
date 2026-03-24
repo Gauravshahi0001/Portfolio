@@ -116,15 +116,20 @@ export default function Projects() {
               <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-white/[0.05] to-transparent pointer-events-none"></div>
               <div className={`absolute top-0 right-0 w-32 h-32 bg-${project.theme}-500/10 rounded-full blur-[50px] pointer-events-none group-hover:bg-${project.theme}-500/20 transition-all duration-500`}></div>
 
-              {/* Project Image */}
-              <div className="w-full h-48 md:h-56 rounded-xl overflow-hidden mb-6 relative z-10 border border-white/10 group-hover:border-white/20 transition-colors duration-500">
+              {/* Project Image - Clickable GitHub Link */}
+              <a 
+                href={project.github} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-full h-48 md:h-56 rounded-xl overflow-hidden mb-6 relative z-10 border border-white/10 group-hover:border-white/20 transition-colors duration-500 block hover:scale-[1.02] active:scale-[0.98]"
+              >
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500 z-10 mix-blend-overlay pointer-events-none"></div>
                 <img 
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
                 />
-              </div>
+              </a>
 
               {/* Header: Project ID & Link */}
               <div className="flex justify-between items-center w-full mb-6 relative z-10">

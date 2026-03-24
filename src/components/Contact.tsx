@@ -176,7 +176,7 @@ export default function Contact() {
           className="mb-16 text-center md:text-left"
         >
           <h2 className="text-4xl lg:text-5xl font-black font-sans text-white mb-4 tracking-tighter">
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 neon-text">Touch</span>
+            INITIATE__<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 neon-text">UPLINK</span>
           </h2>
           <div className="w-20 h-1 bg-cyan-400 mx-auto md:mx-0 neon-shadow mb-8"></div>
           <div className="flex items-center gap-3 font-mono text-[10px] text-green-400 uppercase tracking-[0.3em] animate-pulse justify-center md:justify-start font-bold">

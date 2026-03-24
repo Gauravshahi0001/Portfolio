@@ -21,7 +21,7 @@ const certificationsData = [
         <Image src={hackerrankImg} alt="HackerRank" width={32} height={32} className="object-contain" />
       </div>
     ),
-    link: "#",
+    link: "https://www.hackerrank.com/certificates/7f8f0ea2f8d6",
     glow: "hover:shadow-[0_0_30px_rgba(0,234,100,0.15)] hover:border-[#00EA64]/40"
   },
   {
@@ -36,12 +36,42 @@ const certificationsData = [
         <Image src={hackerrankImg} alt="HackerRank" width={32} height={32} className="object-contain" />
       </div>
     ),
-    link: "#",
+    link: "https://www.hackerrank.com/certificates/b19d477c0f4c",
+    glow: "hover:shadow-[0_0_30px_rgba(0,234,100,0.15)] hover:border-[#00EA64]/40"
+  },
+  {
+    type: "hackerrank",
+    title: "Problem Solving (Basic) Certificate",
+    issuer: "HackerRank",
+    date: "Aug 2024",
+    description: "Standardized certification platform evaluating fundamental logic, data structures, and algorithmic implementation speed.",
+    tags: ["Basic DSA", "Problem Solving", "Logic"],
+    icon: (
+      <div className="w-12 h-12 rounded-xl bg-white border border-white/10 flex items-center justify-center p-1.5 shadow-inner group-hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-shadow">
+        <Image src={hackerrankImg} alt="HackerRank" width={32} height={32} className="object-contain" />
+      </div>
+    ),
+    link: "https://www.hackerrank.com/certificates/2f1e36b7f111",
+    glow: "hover:shadow-[0_0_30px_rgba(0,234,101,0.15)] hover:border-[#00EA64]/40"
+  },
+  {
+    type: "hackerrank",
+    title: "SQL (Basic) Certificate",
+    issuer: "HackerRank",
+    date: "Sep 2024",
+    description: "Professional certification assessing proficiency in relational database queries, joins, and data manipulation.",
+    tags: ["SQL", "Databases", "Query Optimization"],
+    icon: (
+      <div className="w-12 h-12 rounded-xl bg-white border border-white/10 flex items-center justify-center p-1.5 shadow-inner group-hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-shadow">
+        <Image src={hackerrankImg} alt="HackerRank" width={32} height={32} className="object-contain" />
+      </div>
+    ),
+    link: "https://www.hackerrank.com/certificates/5c493c81abb6",
     glow: "hover:shadow-[0_0_30px_rgba(0,234,100,0.15)] hover:border-[#00EA64]/40"
   },
   {
     type: "lpu",
-    title: "3rd Position in 'Analytical Attributes'",
+    title: "Analytical Attributes –- A Competitive Event on Critical Thinking",
     issuer: "Lovely Professional University",
     date: "Mar 2024",
     description: "Secured regional podium placement in the rigorous university-wide Analytical Attributes logic and mathematics marathon.",
@@ -51,12 +81,12 @@ const certificationsData = [
         <Image src={cpeImg} alt="LPU" width={32} height={32} className="object-contain" />
       </div>
     ),
-    link: "#",
+    link: "https://media.licdn.com/dms/image/v2/D5622AQETn5Hg9gBv3g/feedshare-shrink_2048_1536/B56ZbtF9hBGgAs-/0/1747734487215?e=1775692800&v=beta&t=lLpk0MgoxczEuAgTB_eGgOUczKCL18I9Z9swcyDW9kk",
     glow: "hover:shadow-[0_0_30px_rgba(250,204,21,0.15)] hover:border-yellow-400/40"
   },
   {
     type: "lpu",
-    title: "2nd Position in 'GK Challenge'",
+    title: "Brain Blast GK Challenge",
     issuer: "Lovely Professional University",
     date: "Feb 2024",
     description: "Awarded runner-up status against 500+ competitors in rapid-fire technological and general knowledge assessments.",
@@ -66,8 +96,23 @@ const certificationsData = [
         <Image src={cpeImg} alt="LPU" width={32} height={32} className="object-contain" />
       </div>
     ),
-    link: "#",
+    link: "https://media.licdn.com/dms/image/v2/D5622AQE4TMZZvqs1Tg/feedshare-shrink_1280/feedshare-shrink_1280/0/1733140321639?e=1775692800&v=beta&t=cfSV60Mj1HzP7rb1iEiDKTCx9OcUrCai9JF8rEwcFTc",
     glow: "hover:shadow-[0_0_30px_rgba(250,204,21,0.15)] hover:border-yellow-400/40"
+  },
+  {
+    type: "nptel",
+    title: "Cloud Computing Certification",
+    issuer: "NPTEL",
+    date: "Oct 2023",
+    description: "Successfully completed rigorous certification mapping distributed system architecture, virtualization, and cloud resource management.",
+    tags: ["Cloud Architecture", "Virtualization", "AWS / GCP"],
+    icon: (
+      <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-inner group-hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-shadow">
+        <Image src={nptelImg} alt="NPTEL" width={32} height={32} className="object-contain" />
+      </div>
+    ),
+    link: "https://media.licdn.com/dms/image/v2/D5622AQGlk9-oZE0R0Q/feedshare-shrink_1280/B56ZrJkoi4IcAs-/0/1764318416198?e=1775692800&v=beta&t=XQ0TEVTwCL2iBo-3WZHnaJAPgJuD1kCgll-Ab7AiI3s",
+    glow: "hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] hover:border-blue-500/40"
   },
   {
     type: "academic",
@@ -85,19 +130,19 @@ const certificationsData = [
     glow: "hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] hover:border-cyan-400/40"
   },
   {
-    type: "nptel",
-    title: "Cloud Computing Certification",
-    issuer: "NPTEL",
-    date: "Oct 2023",
-    description: "Successfully completed rigorous certification mapping distributed system architecture, virtualization, and cloud resource management.",
-    tags: ["Cloud Architecture", "Virtualization", "AWS / GCP"],
+    type: "lpu",
+    title: "Mastery of Object Oriented Programming Achieved!",
+    issuer: "Lovely Professional University",
+    date: "Mar 2024",
+    description: "Successfully completed an intensive 72-hour Object Oriented Programming course, mastering complex architectural patterns and encapsulation.",
+    tags: ["OOP", "Design Patterns", "C++ / Java"],
     icon: (
       <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-inner group-hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-shadow">
-        <Image src={nptelImg} alt="NPTEL" width={32} height={32} className="object-contain" />
+        <Image src={cpeImg} alt="LPU" width={32} height={32} className="object-contain" />
       </div>
     ),
-    link: "#",
-    glow: "hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] hover:border-blue-500/40"
+    link: "https://media.licdn.com/dms/image/v2/D5622AQHXgTh_8-smeA/feedshare-shrink_2048_1536/B56ZdNrN9qGoAs-/0/1749354865418?e=1775692800&v=beta&t=BZUIc17t8QRz1ZG-LHkwzi5EHvQLNn1LQAkmdRbRP30",
+    glow: "hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] hover:border-cyan-400/40"
   }
 ];
 

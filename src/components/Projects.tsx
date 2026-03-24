@@ -6,32 +6,6 @@ import { Github, ExternalLink, TerminalSquare } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      id: "01",
-      title: "Real-Time Accident Detection & Claims",
-      description: "Real-Time Accident Detection System and Insurance claim workflow.",
-      tags: ["Python", "Machine Learning", "OpenCV"],
-      features: ["Video Analytics", "Crash Detection", "Automated Claims"],
-      metrics: { build: "Passing", speed: "124ms", coverage: "94%" },
-      github: "https://github.com/Gauravshahi0001/Real-Time-Accident-Detection-System-and-Insurance-claim",
-      demo: "#",
-      glow: "hover:shadow-[0_0_40px_rgba(6,182,212,0.25)] hover:border-cyan-500/50 group",
-      theme: "cyan",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
-    },
-    {
-      id: "02",
-      title: "Blood Locator and Dispatcher System",
-      description: "Multi-role workflow supporting Donor, Recipient, and Admin modules.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      features: ["Role-Based Access", "Inventory Tracking", "Dispatcher Logistics"],
-      metrics: { build: "Passing", speed: "86ms", coverage: "89%" },
-      github: "https://github.com/Gauravshahi0001/Efficient-blood-Locator-and-dispatcher-System",
-      demo: "#",
-      glow: "hover:shadow-[0_0_40px_rgba(168,85,247,0.25)] hover:border-purple-500/50 group",
-      theme: "purple",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop"
-    },
-    {
       id: "03",
       title: "Page Replacement Algo Simulator",
       description: "Design a simulator that allows users to test OS memory management.",
@@ -58,17 +32,30 @@ export default function Projects() {
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
     },
     {
-      id: "05",
-      title: "Entity Linking in Scanned Records",
-      description: "Noise-Robust Entity Linking in Scanned Land Records OCR for Government Scale.",
-      tags: ["Jupyter Notebook", "OCR", "NLP"],
-      features: ["Noise Reduction", "Government Scale Mapping", "Entity Extraction"],
-      metrics: { build: "Passing", speed: "512ms", coverage: "84%" },
-      github: "https://github.com/Gauravshahi0001/Entity-Linking-in-Scanned-Land-Records-OCR-Noise-for-Government-Scale",
+      id: "02",
+      title: "Blood Locator and Dispatcher System",
+      description: "Multi-role workflow supporting Donor, Recipient, and Admin modules.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      features: ["Role-Based Access", "Inventory Tracking", "Dispatcher Logistics"],
+      metrics: { build: "Passing", speed: "86ms", coverage: "89%" },
+      github: "https://github.com/Gauravshahi0001/Efficient-blood-Locator-and-dispatcher-System",
+      demo: "#",
+      glow: "hover:shadow-[0_0_40px_rgba(168,85,247,0.25)] hover:border-purple-500/50 group",
+      theme: "purple",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      id: "01",
+      title: "Real-Time Accident Detection & Claims",
+      description: "Real-Time Accident Detection System and Insurance claim workflow.",
+      tags: ["Python", "Machine Learning", "OpenCV"],
+      features: ["Video Analytics", "Crash Detection", "Automated Claims"],
+      metrics: { build: "Passing", speed: "124ms", coverage: "94%" },
+      github: "https://github.com/Gauravshahi0001/Real-Time-Accident-Detection-System-and-Insurance-claim",
       demo: "#",
       glow: "hover:shadow-[0_0_40px_rgba(6,182,212,0.25)] hover:border-cyan-500/50 group",
       theme: "cyan",
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: "06",
@@ -82,6 +69,19 @@ export default function Projects() {
       glow: "hover:shadow-[0_0_40px_rgba(168,85,247,0.25)] hover:border-purple-500/50 group",
       theme: "purple",
       image: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      id: "05",
+      title: "Entity Linking in Scanned Records",
+      description: "Noise-Robust Entity Linking in Scanned Land Records OCR for Government Scale.",
+      tags: ["Jupyter Notebook", "OCR", "NLP"],
+      features: ["Noise Reduction", "Government Scale Mapping", "Entity Extraction"],
+      metrics: { build: "Passing", speed: "512ms", coverage: "84%" },
+      github: "https://github.com/Gauravshahi0001/Entity-Linking-in-Scanned-Land-Records-OCR-Noise-for-Government-Scale",
+      demo: "#",
+      glow: "hover:shadow-[0_0_40px_rgba(6,182,212,0.25)] hover:border-cyan-500/50 group",
+      theme: "cyan",
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop"
     }
   ];
 

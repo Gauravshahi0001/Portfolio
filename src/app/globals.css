@@ -72,3 +72,12 @@ body::before {
   background-color: rgba(0, 240, 255, 0.3);
   color: #fff;
 }
+
+/* Custom Cursor Hiding */
+* {
+  cursor: none !important;
+}
+
+a, button, [role="button"] {
+  cursor: none !important;
+}

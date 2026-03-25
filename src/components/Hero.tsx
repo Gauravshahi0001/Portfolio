@@ -81,9 +81,8 @@ export default function Hero() {
               href="https://drive.google.com/file/d/1xa_Vifx5PdbjtlZCBwWWBiC7lpB7UwXy/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="group relative flex w-full sm:w-auto items-center justify-center px-8 py-3.5 bg-cyan-400 text-black font-black uppercase tracking-widest hover:scale-[1.02] transition-all duration-300 neon-shadow overflow-hidden shadow-[0_0_20px_rgba(34,211,238,0.4)] rounded-sm"
+              className="group relative flex w-full sm:w-auto items-center justify-center px-8 py-3.5 bg-transparent border-[1.5px] border-cyan-500/50 text-cyan-400 font-bold uppercase tracking-widest hover:border-cyan-400 hover:bg-cyan-500/10 transition-all duration-300 neon-shadow rounded-sm"
             >
-              <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
               <span className="relative flex items-center gap-2">
                 View Resume <ExternalLink className="w-5 h-5 group-hover:-translate-y-1 transition-transform" />
               </span>

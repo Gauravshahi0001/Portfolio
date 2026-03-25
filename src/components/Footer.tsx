@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Footer() {
   const navLinks = [
@@ -24,6 +25,16 @@ export default function Footer() {
       icon: <FaLinkedin />, 
       href: "https://www.linkedin.com/in/gaurav-kumar-259946288/",
       glow: "hover:text-blue-500 hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]"
+    },
+    { 
+      icon: <SiLeetcode />, 
+      href: "https://leetcode.com/u/Gaurav_Shahi_0001/",
+      glow: "hover:text-orange-500 hover:drop-shadow-[0_0_8px_rgba(249,115,22,0.8)]"
+    },
+    { 
+      icon: <FaEnvelope />, 
+      href: "mailto:gauravshahi0001@gmail.com",
+      glow: "hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(248,113,113,0.8)]"
     },
   ];
 

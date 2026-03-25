@@ -71,7 +71,7 @@ export default function Hero() {
 
           <div className="bg-white/5 border-l-4 border-cyan-400 p-4 md:p-6 rounded-r-xl max-w-xl backdrop-blur-sm shadow-[0_0_15px_rgba(34,211,238,0.1)]">
             <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-            B.Tech CSE student & LeetCode Knight (1948). Solving 400+ problems with expertise in C++, Python, and Java. Dedicated to building scalable ML and software solutions for high-impact SDE roles.
+            B.Tech CSE student & LeetCode Knight (1948). Solving 500+ problems with expertise in C++, Python, and Java. Dedicated to building scalable ML and software solutions for high-impact SDE roles.
             </p>
           </div>
 

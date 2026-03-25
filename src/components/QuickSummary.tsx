@@ -56,7 +56,7 @@ const stats = [
   },
   {
     title: "Problems Solved",
-    target: 400,
+    target: 500,
     decimals: 0,
     prefix: "",
     suffix: "+",
@@ -67,7 +67,7 @@ const stats = [
   },
   {
     title: "University CGPA",
-    target: 7.7,
+    target: 8.12,
     decimals: 2,
     prefix: "",
     suffix: "",

@@ -11,48 +11,48 @@ const skillsData = [
     category: "Languages",
     icon: <Globe className="w-6 h-6 text-cyan-400" />,
     skills: [
-      { name: "C++", level: 90, brandIcon: <SiCplusplus className="w-4 h-4 text-blue-500" /> },
-      { name: "C", level: 90, brandIcon: <SiC className="w-4 h-4 text-blue-600" /> },
-      { name: "JAVA", level: 70, brandIcon: <FaJava className="w-4 h-4 text-orange-500" /> },
-      { name: "PYTHON", level: 60, brandIcon: <FaPython className="w-4 h-4 text-yellow-400" /> },
-      { name: "JAVASCRIPT", level: 50, brandIcon: <IoLogoJavascript className="w-4 h-4 text-yellow-300" /> },
-      { name: "SQL", level: 80, brandIcon: <Database className="w-4 h-4 text-blue-300" /> },
+      { name: "C++", level: 100, brandIcon: <SiCplusplus className="w-4 h-4 text-blue-500" /> },
+      { name: "C", level: 100, brandIcon: <SiC className="w-4 h-4 text-blue-600" /> },
+      { name: "JAVA", level: 100, brandIcon: <FaJava className="w-4 h-4 text-orange-500" /> },
+      { name: "PYTHON", level: 100, brandIcon: <FaPython className="w-4 h-4 text-yellow-400" /> },
+      { name: "JAVASCRIPT", level: 100, brandIcon: <IoLogoJavascript className="w-4 h-4 text-yellow-300" /> },
+      { name: "SQL", level: 100, brandIcon: <Database className="w-4 h-4 text-blue-300" /> },
     ]
   },
   {
     category: "CS Fundamentals",
     icon: <Settings className="w-6 h-6 text-purple-400" />,
     skills: [
-      { name: "DSA", level: 90, brandIcon: <Network className="w-4 h-4 text-cyan-400" /> },
-      { name: "OOP", level: 90, brandIcon: <Layers className="w-4 h-4 text-purple-400" /> },
-      { name: "OS", level: 80, brandIcon: <Cpu className="w-4 h-4 text-green-400" /> },
-      { name: "CN", level: 70, brandIcon: <Wifi className="w-4 h-4 text-blue-400" /> },
-      { name: "DBMS", level: 80, brandIcon: <Database className="w-4 h-4 text-orange-400" /> },
-      { name: "SDLC", level: 70, brandIcon: <RefreshCw className="w-4 h-4 text-pink-400" /> },
-      { name: "AGILE", level: 60, brandIcon: <Zap className="w-4 h-4 text-yellow-400" /> },
+      { name: "DSA", level: 100, brandIcon: <Network className="w-4 h-4 text-cyan-400" /> },
+      { name: "OOP", level: 100, brandIcon: <Layers className="w-4 h-4 text-purple-400" /> },
+      { name: "OS", level: 100, brandIcon: <Cpu className="w-4 h-4 text-green-400" /> },
+      { name: "CN", level: 100, brandIcon: <Wifi className="w-4 h-4 text-blue-400" /> },
+      { name: "DBMS", level: 100, brandIcon: <Database className="w-4 h-4 text-orange-400" /> },
+      { name: "SDLC", level: 100, brandIcon: <RefreshCw className="w-4 h-4 text-pink-400" /> },
+      { name: "AGILE", level: 100, brandIcon: <Zap className="w-4 h-4 text-yellow-400" /> },
     ]
   },
   {
     category: "Frameworks & Web",
     icon: <Atom className="w-6 h-6 text-blue-400" />,
     skills: [
-      { name: "REACT.JS", level: 70, brandIcon: <FaReact className="w-4 h-4 text-cyan-400" /> },
-      { name: "HTML5", level: 90, brandIcon: <FaHtml5 className="w-4 h-4 text-orange-500" /> },
-      { name: "CSS3", level: 80, brandIcon: <FaCss3Alt className="w-4 h-4 text-blue-500" /> },
-      { name: "TAILWIND CSS", level: 70, brandIcon: <SiTailwindcss className="w-4 h-4 text-cyan-300" /> },
-      { name: "THREE.JS", level: 60, brandIcon: <SiThreedotjs className="w-4 h-4 text-white" /> },
+      { name: "REACT.JS", level: 100, brandIcon: <FaReact className="w-4 h-4 text-cyan-400" /> },
+      { name: "HTML5", level: 100, brandIcon: <FaHtml5 className="w-4 h-4 text-orange-500" /> },
+      { name: "CSS3", level: 100, brandIcon: <FaCss3Alt className="w-4 h-4 text-blue-500" /> },
+      { name: "TAILWIND CSS", level: 100, brandIcon: <SiTailwindcss className="w-4 h-4 text-cyan-300" /> },
+      { name: "THREE.JS", level: 100, brandIcon: <SiThreedotjs className="w-4 h-4 text-white" /> },
     ]
   },
   {
     category: "Developer Tools",
     icon: <Wrench className="w-6 h-6 text-gray-400" />,
     skills: [
-      { name: "GIT", level: 80, brandIcon: <FaGitAlt className="w-4 h-4 text-orange-600" /> },
-      { name: "GITHUB", level: 80, brandIcon: <FaGithub className="w-4 h-4 text-white" /> },
-      { name: "LINUX", level: 85, brandIcon: <FaLinux className="w-4 h-4 text-yellow-200" /> },
-      { name: "VS CODE", level: 90, brandIcon: <FaCode className="w-4 h-4 text-blue-500" /> },
-      { name: "DEBUGGING", level: 90, brandIcon: <Bug className="w-4 h-4 text-red-500" /> },
-      { name: "TESTING", level: 60, brandIcon: <ShieldCheck className="w-4 h-4 text-green-500" /> },
+      { name: "GIT", level: 100, brandIcon: <FaGitAlt className="w-4 h-4 text-orange-600" /> },
+      { name: "GITHUB", level: 100, brandIcon: <FaGithub className="w-4 h-4 text-white" /> },
+      { name: "LINUX", level: 100, brandIcon: <FaLinux className="w-4 h-4 text-yellow-200" /> },
+      { name: "VS CODE", level: 100, brandIcon: <FaCode className="w-4 h-4 text-blue-500" /> },
+      { name: "DEBUGGING", level: 100, brandIcon: <Bug className="w-4 h-4 text-red-500" /> },
+      { name: "TESTING", level: 100, brandIcon: <ShieldCheck className="w-4 h-4 text-green-500" /> },
     ]
   }
 ];
@@ -102,7 +102,6 @@ export default function Skills() {
                            {skill.name}
                         </span>
                       </div>
-                      <span className="text-[10px] font-mono text-cyan-400 font-bold">{skill.level}%</span>
                     </div>
                     <div className="w-full bg-white/10 rounded-full h-[6px] p-[1.5px] overflow-hidden">
                       <motion.div 
